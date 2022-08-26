@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Art/Items/blue_armor_sphere.png" type="Texture" id=1]
+[ext_resource path="res://Items/PowerUps/SpecialEffects/BubleArmor.gd" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 7.0
+
+[node name="BubleArmor" type="Sprite"]
+scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 1 )
+
+[node name="Cooldown" type="Timer" parent="."]
+wait_time = 12.0
+one_shot = true
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]
+[connection signal="timeout" from="Cooldown" to="." method="_on_Cooldown_timeout"]

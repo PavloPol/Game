@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Characters/Character.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Characters/Players/Player.gd" type="Script" id=4]
+[ext_resource path="res://Characters/Players/FiniteStateMachine.gd" type="Script" id=5]
+
+[sub_resource type="CircleShape2D" id=17]
+radius = 5.0
+
+[node name="Player" instance=ExtResource( 1 )]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource( 4 )
+
+[node name="FiniteStateMachine" parent="." index="0"]
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" parent="." index="2"]
+position = Vector2( 0, 2 )
+shape = SubResource( 17 )
+
+[node name="Weapon" type="Node2D" parent="." index="3"]
+
+[node name="WeaponAnimationPlayer" type="AnimationPlayer" parent="Weapon" index="0"]
+
+[node name="SpecialEffects" type="Node2D" parent="." index="4"]
+
+[node name="Camera2D" type="Camera2D" parent="." index="6"]

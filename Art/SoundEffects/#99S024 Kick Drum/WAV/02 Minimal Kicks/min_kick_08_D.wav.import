@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/min_kick_08_D.wav-147b5322f0e4688bbc550cc19d6cc2e0.sample"
+
+[deps]
+
+source_file="res://Art/SoundEffects/#99S024 Kick Drum/WAV/02 Minimal Kicks/min_kick_08_D.wav"
+dest_files=[ "res://.import/min_kick_08_D.wav-147b5322f0e4688bbc550cc19d6cc2e0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

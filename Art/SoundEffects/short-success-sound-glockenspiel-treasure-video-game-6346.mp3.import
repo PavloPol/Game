@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/short-success-sound-glockenspiel-treasure-video-game-6346.mp3-88bbfcd9c781df92109e7da1ef4d9a58.mp3str"
+
+[deps]
+
+source_file="res://Art/SoundEffects/short-success-sound-glockenspiel-treasure-video-game-6346.mp3"
+dest_files=[ "res://.import/short-success-sound-glockenspiel-treasure-video-game-6346.mp3-88bbfcd9c781df92109e7da1ef4d9a58.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

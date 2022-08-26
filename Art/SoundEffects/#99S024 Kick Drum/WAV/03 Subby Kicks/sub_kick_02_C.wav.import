@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sub_kick_02_C.wav-2269a86c1778a812c3fc3de0890e9987.sample"
+
+[deps]
+
+source_file="res://Art/SoundEffects/#99S024 Kick Drum/WAV/03 Subby Kicks/sub_kick_02_C.wav"
+dest_files=[ "res://.import/sub_kick_02_C.wav-2269a86c1778a812c3fc3de0890e9987.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

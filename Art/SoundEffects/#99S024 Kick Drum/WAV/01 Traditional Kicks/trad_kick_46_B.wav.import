@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/trad_kick_46_B.wav-4b19cc6fc9f6630fce5fd02fa9203fce.sample"
+
+[deps]
+
+source_file="res://Art/SoundEffects/#99S024 Kick Drum/WAV/01 Traditional Kicks/trad_kick_46_B.wav"
+dest_files=[ "res://.import/trad_kick_46_B.wav-4b19cc6fc9f6630fce5fd02fa9203fce.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

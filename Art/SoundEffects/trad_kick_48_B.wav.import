@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/trad_kick_48_B.wav-6560a77736eec8196d6ec9c514c56814.sample"
+
+[deps]
+
+source_file="res://Art/SoundEffects/trad_kick_48_B.wav"
+dest_files=[ "res://.import/trad_kick_48_B.wav-6560a77736eec8196d6ec9c514c56814.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
