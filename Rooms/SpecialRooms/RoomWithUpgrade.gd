@@ -1,12 +1,12 @@
 extends MyRoom
 
 const ITEMS: Array = [
-	#preload("res://Items/PowerUps/TrollPU.tscn"),
-	#preload("res://Items/PowerUps/TornadoPU.tscn"),
-	#preload("res://Items/PowerUps/RazorBladePU.tscn"),
-	#preload("res://Items/PowerUps/OrangeSphereFehu.tscn"),
-	#preload("res://Items/PowerUps/HealthWing.tscn"),
-	#preload("res://Items/PowerUps/GrayBagPU.tscn"),
+	preload("res://Items/PowerUps/TrollPU.tscn"),
+	preload("res://Items/PowerUps/TornadoPU.tscn"),
+	preload("res://Items/PowerUps/RazorBladePU.tscn"),
+	preload("res://Items/PowerUps/OrangeSphereFehu.tscn"),
+	preload("res://Items/PowerUps/HealthWing.tscn"),
+	preload("res://Items/PowerUps/GrayBagPU.tscn"),
 	preload("res://Items/PowerUps/GrayBook.tscn"),
 	preload("res://Items/PowerUps/PlateArmor.tscn")
 ]

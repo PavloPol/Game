@@ -48,6 +48,16 @@ _global_script_classes=[ {
 "class": "Player",
 "language": "GDScript",
 "path": "res://Characters/Players/Player.gd"
+}, {
+"base": "Node2D",
+"class": "room1",
+"language": "GDScript",
+"path": "res://tests/Room1.gd"
+}, {
+"base": "Node2D",
+"class": "room2",
+"language": "GDScript",
+"path": "res://tests/Room2.gd"
 } ]
 _global_script_class_icons={
 "Character": "",
@@ -57,7 +67,9 @@ _global_script_class_icons={
 "Hitbox": "",
 "Item": "",
 "MyRoom": "",
-"Player": ""
+"Player": "",
+"room1": "",
+"room2": ""
 }
 
 [application]

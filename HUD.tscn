@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://HUD.gd" type="Script" id=1]
 [ext_resource path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/ui (new)/pause_button.png" type="Texture" id=2]
@@ -14,6 +14,7 @@
 [ext_resource path="res://Art/Selector/assassin_unselected.png" type="Texture" id=12]
 [ext_resource path="res://Art/Selector/bomber_selected.png" type="Texture" id=13]
 [ext_resource path="res://Art/Selector/bomber_unselected.png" type="Texture" id=14]
+[ext_resource path="res://Game.tscn" type="PackedScene" id=15]
 
 [sub_resource type="DynamicFontData" id=1]
 font_path = "res://Art/Font/Xolonium-Regular.ttf"
@@ -162,6 +163,9 @@ group = ExtResource( 10 )
 align = 1
 
 [node name="SettingsMenu" parent="." instance=ExtResource( 3 )]
+
+[node name="Game" parent="." instance=ExtResource( 15 )]
+visible = false
 
 [connection signal="pressed" from="StartButton" to="." method="_on_StartButton_pressed"]
 [connection signal="pressed" from="SettingsButton" to="." method="_on_SettingsButton_pressed"]

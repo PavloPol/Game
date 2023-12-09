@@ -16,7 +16,7 @@ const HERO_STATS : Dictionary = {
 		"max_hp" : 4,
 		"hp" : 4,
 		"player_scale" : 1,
-		"damage" : 4,
+		"damage" : 1,
 		"special_effects" : [],
 		"mov_speed" : 20,
 		"projectile_scale" : 1,

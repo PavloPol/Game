@@ -14,7 +14,7 @@ func _place_bomb() -> void:
 	var bomb: Node2D = BOMB_SCENE.instance()
 	bomb.explosion_scale = explosion_scale
 	get_tree().current_scene.add_child(bomb)
-	bomb.launch(hero_damage, bomb_knockback, position)
+	bomb.launch(position, hero_damage, bomb_knockback)
 
 
 func attack() -> void:
